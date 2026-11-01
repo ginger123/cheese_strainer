@@ -12,8 +12,9 @@ st.set_page_config(page_title="Cheese Strainer", layout="wide")
 logger = get_logger(__name__)
 
 SEMESTERS = [
-    ("2026 Spring", 2025, 201),
-    ("2026 Winter", 2025, 200),
+    ("2026-27 Winter", 2026, 200),
+    ("OLD 2025-25 Spring", 2025, 201),
+    ("OLD 2025-26 Winter", 2025, 200),
 ]
 
 DAY_TO_HEBREW = {
